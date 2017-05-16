@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyshowClass</class>
+ <widget class="QMainWindow" name="MyshowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Myshow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(45, 130, 32);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(0, 100, 115); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: rgb(85,170,0); }</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pcdshowButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(0, 100, 115); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: rgb(85,170,0); }</string>
+    </property>
+    <property name="text">
+     <string>点云显示</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="objtopcd">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(0, 100, 115); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: rgb(85,170,0); }</string>
+    </property>
+    <property name="text">
+     <string>obj2pcd</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="HarrisButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(0, 100, 115); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: rgb(85,170,0); }</string>
+    </property>
+    <property name="text">
+     <string>Harris关键点</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SiftButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(0, 100, 115); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: rgb(85,170,0); }</string>
+    </property>
+    <property name="text">
+     <string>Sift关键点</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="IcpButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: rgb(0, 100, 115); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:hover { background-color: rgb(85,170,0); }</string>
+    </property>
+    <property name="text">
+     <string>ICP配准</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 99, 0)</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Myshow.qrc"/>
+ </resources>
+ <connections/>
+</ui>
